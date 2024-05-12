@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int TEMPO, VM;
+    
+    scanf("%d %d", &TEMPO, &VM);
+    
+    printf("%.3f\n", TEMPO * VM / 12.0);
+
+ 
+    return 0;
+}
